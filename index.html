@@ -13,9 +13,9 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       />
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./dist/css/main.min.css">
   </head>
-  <body>
+  <body class="body">
     <header class="header-line">
       <div class="conteiner header">
      
@@ -71,7 +71,7 @@
                   <li class="form__item mini-blog ">
                     <label class="form__label " for="name">Имя</label>
                   <div class="transform-for-help">
-                    <input class="form__input" type="text" name="name" id="name"/>
+                    <input class="form__input" class="input" type="text" name="name" id="name"/>
                   <svg class="form-icon" width="12" height="12">
                     <use href="./imeges/icon.svg#name-name"></use>
                   </svg>
@@ -81,7 +81,7 @@
                   <li class="form__item mini-blog">
                     <label class="form__label" for="tel">Телефон</label>
                     <div class="transform-for-help">
-                      <input class="form__input" type="tel" name="tel" id="tel">
+                      <input class="form__input" class="input" type="tel" name="tel" id="tel">
                       <svg class="form-icon" width="14" height="14">
                         <use href="./imeges/icon.svg#tel-modal"></use>
                       </svg>
@@ -91,7 +91,7 @@
                 <li class="form__item mini-blog">
                   <label class="form__label" for="email">Почта</label>
                   <div class="transform-for-help">
-                    <input class="form__input"type="email" name="email" id="email">
+                    <input class="form__input" class="input" type="email" name="email" id="email">
                     <svg class="form-icon" width="16" height="12">
                       <use href="./imeges/icon.svg#mail-modal"></use>
                     </svg>
@@ -100,7 +100,7 @@
 
                 <li class="form__item mini-blog coments">
                   <label class="form__label " for="coment">Коментарий</label>
-                  <textarea class="form__textarea" name="coment" id="coment" rows="10" placeholder="Введите текст"></textarea>
+                  <textarea class="form__textarea textarea" name="coment" id="coment" rows="10" placeholder="Введите текст"></textarea>
                 </li>
                 </ul>
             <div class="checkbox-blog mini-blog ">
@@ -164,7 +164,7 @@
         <ul class="lessons__list list">
           <li class="lessons__item">
             <div class="lessons__box-link">
-            <a href=""><img src="./imeges/img1.jpg" alt="Верстка" width="370"/></a>
+            <a href=""><img class="img"src="./imeges/img1.jpg" alt="Верстка" width="370"/></a>
             <div class="lessons__box-text">
              <p class="lessons__box-text-tital">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
             </div>
@@ -172,14 +172,14 @@
           </li>
           <li class="lessons-ul-li">
             <div class="lessons__box-link">
-            <a href=""><img src="./imeges/img2.jpg" alt="Дизайн" width="370"/></a>
+            <a href=""><img class="img"src="./imeges/img2.jpg" alt="Дизайн" width="370"/></a>
             <div class="lessons__box-text">
              <p class="lessons__box-text-tital">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
             </div>
           </li>
           <li class="lessons-ul-li">
             <div class="lessons__box-link">
-            <a href=""><img src="./imeges/img3.jpg" alt="оформление" width="370"/></a>
+            <a href=""><img class="img" src="./imeges/img3.jpg" alt="оформление" width="370"/></a>
             <div class="lessons__box-text">
               <p class="lessons__box-text-tital">ДИЗАЙНЕРСКИЕ РИШЕНИЯ</p>
             </div>
@@ -195,7 +195,7 @@
         <h2 class="team__tital">Наша команда</h2>
         <ul class="team__list list">
           <li class="team__item">
-            <img src="./imeges/imgteam1.jpg" alt="Мужчина" width="270" />
+            <img class="img" src="./imeges/imgteam1.jpg" alt="Мужчина" width="270" />
             <div class="card-team">
             <h3 class="card-team__tital">Игорь Демьяненко</h3>
             <p class="card-team__text">Product Designer</p>
@@ -232,7 +232,7 @@
           </div>
           </li>
           <li class="team__item">
-            <img src="./imeges/imgteam2.jpg" alt="Женщина" width="270" />
+            <img class="img" src="./imeges/imgteam2.jpg" alt="Женщина" width="270" />
             <div class="card-team">
             <h3 class="card-team__tital">Ольга Репина</h3>
             <p class="card-team__text">Frontend Developer</p>
@@ -269,7 +269,7 @@
           </div>
           </li>
           <li class="team__item">
-            <img src="./imeges/imgteam3.jpg" alt="Мужчина" width="270" />
+            <img class="img" src="./imeges/imgteam3.jpg" alt="Мужчина" width="270" />
             <div class="card-team">
             <h3 class="card-team__tital">Николай Тарасов</h3>
             <p class="card-team__text">Marketing</p>
@@ -306,7 +306,7 @@
             </div>
           </li>
           <li class="team__item">
-            <img src="./imeges/imgteam4.jpg" alt="Мужчина" width="270" />
+            <img class="img" src="./imeges/imgteam4.jpg" alt="Мужчина" width="270" />
             <div class="card-team">
             <h3 class="card-team__tital">Михаил Ермаков</h3>
             <p class="card-team__text">UI Designer</p>
