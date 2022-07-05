@@ -40,15 +40,16 @@
       height: 50px;
       transition: box-shadow 250ms $cubic,
       background-color 250ms $cubic;
+      
       }
 
   }
-  
+    
   .biznes__button:hover,
   .biznes__button:focus {
     background-color: $main-button;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
   }
+
 //   modal
 

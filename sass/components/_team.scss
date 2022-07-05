@@ -28,6 +28,18 @@
         width: 44px;
         height: 44px;
       }
+      &__link{
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        cursor: pointer;
+        fill: $fill-icon;
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+        transition: background-color 250ms $cubic,
+        fill 250ms $cubic;
+      }
   }
   
   
@@ -62,18 +74,7 @@
       border-radius: 0px 0px 4px 4px;
        width: 270px;
       }
-      &__link{
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        cursor: pointer;
-        fill: $fill-icon;
-        display: flex;
-        justify-content: center;
-        padding-top: 12px;
-        transition: background-color 250ms $cubic,
-        fill 250ms $cubic;
-      }
+      
   }
   .team__item:not(:last-child) {
     margin-right: 30px;
